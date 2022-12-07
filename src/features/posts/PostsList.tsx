@@ -11,7 +11,7 @@ const PostsList = () => {
 			<SPost key={post.id} className='post-card'>
 				<h2 id='post-title'>{post.title}</h2>
 				<p id='post-content'>{post.content}</p>
-				<div></div>
+				<div>footer</div>
 			</SPost>
 		);
 	});
